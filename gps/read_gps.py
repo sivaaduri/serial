@@ -9,7 +9,7 @@ except:
 	
 r=filess.read()
 while(r):
-	#ser.write(r)
+	ser.write(r)
 	r=filess.read()
 while(1):
 	r=ser.readline()
